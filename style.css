@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+body{
+    height: 100vh;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #16243c;
+}
+.parent{
+    width: 40%;
+    background-color: rgb(253 253 246);
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #0000004d;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.leftDiv{
+    width: 40%;
+}
+.rightDiv{
+    width: 55%;
+}
+h1{
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 5px 0px;
+}
+h2{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+.icons i{
+font-size: 1.5rem;
+padding: 10px;
+border-radius: 10px;
+background-color: white;
+border: 1px solid #16243c13;
+cursor: pointer;
+transition: .4s;
+}
+.icons i:hover{
+    background-color: rgb(226, 225, 225);
+}
+.icons{
+    margin:10px 0px 0px;
+}
+.progress{
+width: 80%;
+height: 5px;
+background-color:#e2e2e0;
+border-radius: 10px;
+position: relative;
+margin-bottom: 4em;
+}
+.progress::before{
+    content: '';
+    position: absolute;
+    background-color:#f27b34;
+    height: inherit;
+    width: 80%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+.organization{
+margin:4em 0 .3em;
+}
+.follower{
+    text-align: right;
+}
+.follower span{
+    font-weight: 900;
+}
+button{
+background-color: #16243c;
+color: white;
+padding: 1em 3em;
+border-radius: 5px;
+float: right;
+margin-top: 5px;
+}
+
+
